@@ -20,14 +20,14 @@ sudo -i
 
 Download the installation script:
 ```
-curl -O https://raw.githubusercontent.com/cldcvr/automate-custom-metrics-installation/main/Linux/auto-install-custom-metrics-linux.sh
+curl -O https://raw.githubusercontent.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/main/Linux/auto-install-custom-metrics-linux.sh
 ```
 
 Run the installation script in the user data:
 
 ```
 #!/bin/bash
-curl -O https://raw.githubusercontent.com/cldcvr/automate-custom-metrics-installation/main/Linux/auto-install-custom-metrics-linux.sh
+curl -O https://raw.githubusercontent.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/main/Linux/auto-install-custom-metrics-linux.sh
 bash -x auto-install-custom-metrics-linux.sh > /var/log/auto-install-custom-metrics-linux.sh.log 2>&1
 ```
 

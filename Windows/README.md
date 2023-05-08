@@ -39,7 +39,7 @@ new-item c:\cloudcover\scripts\ -itemtype directory
 ## Disk Metrics
 * Download the script `custom-metrics-disk-windows.ps1` from Github to `c:\cloudcover\scripts\` folder, or use the following command:
 ```powershell
-(New-Object System.Net.WebClient).DownloadFile(“https://raw.githubusercontent.com/cldcvr/automate-custom-metrics-installation/main/Windows/custom-metrics-disk-windows.ps1”,”c:\cloudcover\scripts\custom-metrics-disk-windows.ps1")
+(New-Object System.Net.WebClient).DownloadFile(“https://raw.githubusercontent.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/main/Windows/custom-metrics-disk-windows.ps1”,”c:\cloudcover\scripts\custom-metrics-disk-windows.ps1")
 ```
 
 * Test the script by running it a few times.
@@ -56,7 +56,7 @@ schtasks /create /sc minute /mo 10 /tn DiskUsageReport /tr "powershell.exe -Wind
 ### Memory Metrics
 * Download the script `custom-metrics-memory-windows.ps1` from Github to `c:\cloudcover\scripts\` folder, or use the following command:
 ```powershell
-(New-Object System.Net.WebClient).DownloadFile(“https://raw.githubusercontent.com/cldcvr/automate-custom-metrics-installation/main/Windows/custom-metrics-memory-windows.ps1”,”c:\cloudcover\scripts\custom-metrics-memory-windows.ps1")
+(New-Object System.Net.WebClient).DownloadFile(“https://raw.githubusercontent.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/main/Windows/custom-metrics-memory-windows.ps1”,”c:\cloudcover\scripts\custom-metrics-memory-windows.ps1")
 ```
 
 * Test the script by running it in powershell (2-3 times):
