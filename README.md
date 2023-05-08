@@ -21,7 +21,9 @@ Before you can use these scripts, you'll need to ensure that:
 
 ## Usage
 
-To use these scripts, simply download or clone the repository to your local machine. Then, navigate to the `scripts` directory and select the appropriate subdirectory for your operating system (`linux` or `windows`). Each subdirectory contains a set of scripts that you can use to collect and publish custom metrics to CloudWatch.
+To use these scripts, simply download or clone the repository to your local machine. Then, navigate to your operating system directory (`Linux` or `Windows`). Each subdirectory contains a set of scripts that you can use to collect and publish custom metrics to CloudWatch.
 
-- For linux click [here](https://github.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/blob/main/Linux/README.md)
-- For windows click [here](https://github.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/blob/main/Windows/README.md) 
+Each directory has it's own readme and usage.
+
+- For Linux, click [here](https://github.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/blob/main/Linux/README.md)
+- For Windows, click [here](https://github.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/blob/main/Windows/README.md) 
