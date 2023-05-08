@@ -16,7 +16,7 @@ Before you can use these scripts, you'll need to ensure that:
 
 - Your EC2 instances are running on either Windows or Linux operating systems.
 - You have installed and configured the AWS CLI.
-    - For ( `Linux` and `Windwos` ), Script `auto-install-custom-metrics-linux.sh` and `custom-metrics-disk-memory-linux.sh` will auto install AWS CLI on your instances. [here](https://github.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/blob/main/Linux/README.md)
+    - For ( `Linux` and `Windows` ), Script `auto-install-custom-metrics-linux.sh` and `custom-metrics-disk-memory-linux.sh` will auto install AWS CLI on your instances. [here](https://github.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/blob/main/Linux/README.md)
     - For creating alarms, when you run script on your local machine, You have to install AWS CLI. See [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) in the AWS documentation for instructions on how to install and configure the CLI on your local machine.
 - You have set up IAM permissions for the AWS CLI to access the CloudWatch service. See [Creating a Role for an Amazon EC2 Instance to Access AWS CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-iam-roles-for-cloudwatch-agent.html) in the AWS documentation for instructions on how to set up these permissions.
 - Your instances are running with Instance Metadata Service version 2 (IMDSv2) enabled. These scripts are compatible with IMDSv2 (recommended) and will also work with earlier versions (**not recommended**).
