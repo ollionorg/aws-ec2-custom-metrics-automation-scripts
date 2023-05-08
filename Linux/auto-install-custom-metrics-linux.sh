@@ -44,7 +44,7 @@ export AWS_DEFAULT_OUTPUT="text"
 mkdir -p /root/scripts/
 cd /root/scripts/
 rm -f custom-metrics-disk-memory-linux.sh
-curl -o custom-metrics-disk-memory-linux.sh https://raw.githubusercontent.com/cldcvr/automate-custom-metrics-installation/main/Linux/custom-metrics-disk-memory-linux.sh
+curl -o custom-metrics-disk-memory-linux.sh https://raw.githubusercontent.com/cldcvr/aws-ec2-custom-metrics-automation-scripts/main/Linux/custom-metrics-disk-memory-linux.sh
 dos2unix custom-metrics-disk-memory-linux.sh
 chmod +x custom-metrics-disk-memory-linux.sh
 
