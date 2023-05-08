@@ -32,6 +32,7 @@ bash -x auto-install-custom-metrics-linux.sh > /var/log/auto-install-custom-metr
 ```
 
 Alternatively, you can use the following base64-encoded script in the user data:
+
 ```
 IyEvYmluL2Jhc2gKY3VybCAtTyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vY2xkY3ZyL2F1dG9tYXRlLWN1c3RvbS1tZXRyaWNzLWluc3RhbGxhdGlvbi9tYWluL0xpbnV4L2F1dG8taW5zdGFsbC1jdXN0b20tbWV0cmljcy1saW51eC5zaApiYXNoIC14IGF1dG8taW5zdGFsbC1jdXN0b20tbWV0cmljcy1saW51eC5zaCA+IC92YXIvbG9nL2F1dG8taW5zdGFsbC1jdXN0b20tbWV0cmljcy1saW51eC5zaC5sb2cgMj4mMQo=
 ```
